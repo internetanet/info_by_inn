@@ -1,0 +1,57 @@
+body{
+	display: grid;
+	grid-template-columns: 1fr;
+	font-family: sans serif;
+	font-size: 16px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+input{
+	margin-bottom: 20px;
+}
+h3{
+            font-size: 40px;
+            color: #279FDB;
+        }
+
+/*стили функции вывода уведомлений*/
+.message-green{
+  display: flex;
+  width: 600px;
+  background: #D4E5D0;
+  border-radius: 5px;
+  border: 1px solid #52B231;
+  margin: 15px 0 0 0;
+  padding: 15px;
+}
+.message-red{
+  display: flex;
+  width: 600px;
+  background: #FAEAEA;
+  border-radius: 5px;
+  border: 1px solid #DD4F43;
+  margin: 15px 0 0 0;
+  padding: 15px;
+}
+.message-blue{
+  display: flex;
+  width: 600px;
+  background: #E5EEF9;
+  border-radius: 5px;
+  border: 1px solid #509CC0;
+  margin: 15px 0 0 0;
+  padding: 15px;
+}
+.message-text{
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+/*стили функции вывода уведомлений*/

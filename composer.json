@@ -1,0 +1,7 @@
+{
+    "name": "test/testcode",
+    "description": "testcodedescription",
+    "require": {
+        "hflabs/dadata": "^20.12"
+    }
+}
