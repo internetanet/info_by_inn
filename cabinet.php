@@ -48,7 +48,7 @@
 <?php //запрос в dadata.ru (поиск по ИНН)
   if (isset($_POST['submit2'])) {
         $query = (isset($_POST['inn'])) ? htmlspecialchars(trim($_POST['inn'])) : ''; //телефон из формы авторизации
-        $token = "fb9923adde8f5e4c73204edf4d3096c8eaf646b9";
+        $token = $stringToken;
         $dadata = new \Dadata\DadataClient($token, null);
         $result = $dadata->findById("party", $query, 1);
         echo $result[0]['value'].'<br>'.$result[0]['data']['address']['value'];
